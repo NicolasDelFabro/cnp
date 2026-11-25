@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/* VARIABLES PERSONALIZADAS */
+/* Agregá aquí solo las que realmente utilices */
+
+/* MAPPING PARA TAILWIND V4 */
+/* Definí los colores personalizados cuando los necesites */
+
+@theme inline {
+  --color-primary-text: #01233F;
+  --color-text-secundary: #F9F9F9;
+  --color-background: #D9D9D9;
+  --color-shadow: #847770;
+  --color-primary: #01233F;
+  --color-secundary: #042E4C;
+  --color-terciario: #EBEBEB;
+}
+
+@theme {
+  --font-title: var(--font-manrope);
+  --font-body: var(--font-work-sans)
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  /* :root { */
+    /* Agregá variables específicas si las necesitás */
+  /* } */
+}
+
+/* BASE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
